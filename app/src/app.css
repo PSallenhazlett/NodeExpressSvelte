@@ -1,0 +1,61 @@
+.car-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+
+.car-card {
+  min-width: 14rem;
+  min-height: 2px;
+  box-shadow: 0px 0px 10px 0px #ccc;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.car-subtitle {
+  margin-top: 0.25rem;
+  font-size: 0.9em;
+}
+
+.car-right {
+  font-size: 0.8em;
+  max-width: 6rem;
+  word-wrap: break-word;
+}
+
+.user-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+
+.user-card {
+  min-width: 14rem;
+  min-height: 2px;
+  box-shadow: 0px 0px 10px 0px #ccc;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.user-subtitle {
+  margin-top: 0.25rem;
+  font-size: 0.9em;
+}
+
+.user-right {
+  font-size: 0.8em;
+  max-width: 6rem;
+  word-wrap: break-word;
+}
+
+.info-label {
+  font-weight: bold;
+}
